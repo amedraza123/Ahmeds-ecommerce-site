@@ -1,0 +1,37 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Styles for .navbar */
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: hsl(0, 3%, 13%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Styles for .logo */
+.logo {
+  margin-left: 20px; /* Add margin to separate from the left side */
+}
+
+/* Styles for .links */
+.links {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for links inside .links */
+.links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+  font-size: 20px;
+}
